@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: echo string
-    run: echo "hellow world12"
+      run: echo "hellow world12"
     - name: run multiple command
-    run: |
+      run: |
     node -v
     npm -v
     uname -v
