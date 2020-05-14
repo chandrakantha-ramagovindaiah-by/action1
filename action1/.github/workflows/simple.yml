@@ -1,0 +1,15 @@
+name: run shell command
+
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo string
+    run: echo "hellow world"
+    - name: run multiple command
+    run: |
+    node -v
+    npm -v
+    uname -v
