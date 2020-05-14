@@ -7,7 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: echo string
+<<<<<<< HEAD
       run: echo "hellow world"
+=======
+      run: echo "hellow world12"
+>>>>>>> ff5c6700f135abbbf5ba77565bc89f074cc1c35a
     - name: run multiple command
       run: |
     node -v
